@@ -1,0 +1,77 @@
+22:08:37 **** Incremental Build of configuration Debug for project ZumoBot ****
+make -r all 
+Building file: ../Source/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/ZumoBot/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/ZumoBot/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/main.d" -MT"Source/main.o" -MT"Source/main.d" -o "Source/main.o" "../Source/main.c"
+In file included from ../Source/main.c:8:0:
+../Source/main.c: In function 'main':
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:97:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( vTaskEsperarBoton, "EsperarBoton", 1000, NULL, 1, &xTaskBotonHandle );
+  ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+../Source/main.c: In function 'vTaskBuscarEncontrar':
+../Source/main.c:382:33: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskBuscarEncontrar(void *pvParameters)
+                                 ^
+In file included from ../Source/main.c:8:0:
+../Source/main.c: In function 'vTaskRevisarSensoresPiso':
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:490:4: note: in expansion of macro 'xTaskCreate'
+    xTaskCreate(vTaskQuienSensoPiso, "Quien Senso en el piso", 1000, NULL, 2, NULL );
+    ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+../Source/main.c:449:37: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskRevisarSensoresPiso(void *pvParameters)
+                                     ^
+../Source/main.c: In function 'vTaskQuienSensoPiso':
+../Source/main.c:505:32: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskQuienSensoPiso(void *pvParameters)
+                                ^
+In file included from ../Source/main.c:8:0:
+../Source/main.c: In function 'vTaskEsperarBoton':
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:604:7: note: in expansion of macro 'xTaskCreate'
+       xTaskCreate( vTaskRevisarSensoresPiso, "Revisar Sensores Piso", 1000, NULL, 0, &xTaskRevisarHandle );
+       ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:606:7: note: in expansion of macro 'xTaskCreate'
+       xTaskCreate( vTaskBuscarEncontrar, "BuscarEncontrar", 1000, NULL, 0, &xTaskBuscarHandle );
+       ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+../Source/main.c:582:30: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskEsperarBoton(void *pvParameters)
+                              ^
+Finished building: ../Source/main.c
+ 
+Building target: ZumoBot.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Debug" -L"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/Debug" -Xlinker -Map=ZumoBot.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "FreeRTOS-Plus-Demo-1_Debug.ld" -o "ZumoBot.axf"  ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o  ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o  ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o  ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o  ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o  ./Source/FreeRTOS-Products/FreeRTOS/croutine.o ./Source/FreeRTOS-Products/FreeRTOS/list.o ./Source/FreeRTOS-Products/FreeRTOS/queue.o ./Source/FreeRTOS-Products/FreeRTOS/tasks.o ./Source/FreeRTOS-Products/FreeRTOS/timers.o  ./Source/Examples/UART/UART-interrupt-driven-command-console.o ./Source/Examples/UART/UART-operation-modes-test.o  ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o  ./Source/Examples/I2C/I2C-coordinator.o ./Source/Examples/I2C/I2C-to-OLED.o ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o ./Source/Examples/I2C/font5x7.o ./Source/Examples/I2C/oled.o  ./Source/Examples/GPIO/GPIO-output-and-software-timers.o  ./Source/cr_startup_lpc176x.o ./Source/main.o ./Source/printf-stdarg.o   -llpc17xx.cmsis.driver.library -lCMSISv2p00_LPC17xx
+Finished building target: ZumoBot.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size ZumoBot.axf; # arm-none-eabi-objcopy -O binary ZumoBot.axf ZumoBot.bin ; checksum -p LPC1769 -d ZumoBot.bin;
+   text	   data	    bss	    dec	    hex	filename
+  19288	     16	  16220	  35524	   8ac4	ZumoBot.axf
+ 
+
+22:08:38 Build Finished (took 548ms)
+

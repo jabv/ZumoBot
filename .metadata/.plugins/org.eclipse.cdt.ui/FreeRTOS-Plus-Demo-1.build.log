@@ -1,0 +1,292 @@
+21:32:05 **** Build of configuration Debug for project FreeRTOS-Plus-Demo-1 ****
+make -r all 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.d" -MT"Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o" -MT"Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.d" -o "Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o" "../Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.d" -MT"Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o" -MT"Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.d" -o "Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o" "../Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c"
+../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c: In function 'FreeRTOS_SSP_open':
+../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c:111:19: warning: variable 'usJunkIt' set but not used [-Wunused-but-set-variable]
+ volatile uint16_t usJunkIt;
+                   ^
+../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c: In function 'SSP1_IRQHandler':
+../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c:595:19: warning: variable 'usJunk' set but not used [-Wunused-but-set-variable]
+ volatile uint32_t usJunk, ulReceived = 0UL;
+                   ^
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.d" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o" -MT"Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.d" -o "Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o" "../Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/croutine.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/croutine.d" -MT"Source/FreeRTOS-Products/FreeRTOS/croutine.o" -MT"Source/FreeRTOS-Products/FreeRTOS/croutine.d" -o "Source/FreeRTOS-Products/FreeRTOS/croutine.o" "../Source/FreeRTOS-Products/FreeRTOS/croutine.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/croutine.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/list.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/list.d" -MT"Source/FreeRTOS-Products/FreeRTOS/list.o" -MT"Source/FreeRTOS-Products/FreeRTOS/list.d" -o "Source/FreeRTOS-Products/FreeRTOS/list.o" "../Source/FreeRTOS-Products/FreeRTOS/list.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/list.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/queue.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/queue.d" -MT"Source/FreeRTOS-Products/FreeRTOS/queue.o" -MT"Source/FreeRTOS-Products/FreeRTOS/queue.d" -o "Source/FreeRTOS-Products/FreeRTOS/queue.o" "../Source/FreeRTOS-Products/FreeRTOS/queue.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/queue.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/tasks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/tasks.d" -MT"Source/FreeRTOS-Products/FreeRTOS/tasks.o" -MT"Source/FreeRTOS-Products/FreeRTOS/tasks.d" -o "Source/FreeRTOS-Products/FreeRTOS/tasks.o" "../Source/FreeRTOS-Products/FreeRTOS/tasks.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/tasks.c
+ 
+Building file: ../Source/FreeRTOS-Products/FreeRTOS/timers.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/FreeRTOS-Products/FreeRTOS/timers.d" -MT"Source/FreeRTOS-Products/FreeRTOS/timers.o" -MT"Source/FreeRTOS-Products/FreeRTOS/timers.d" -o "Source/FreeRTOS-Products/FreeRTOS/timers.o" "../Source/FreeRTOS-Products/FreeRTOS/timers.c"
+Finished building: ../Source/FreeRTOS-Products/FreeRTOS/timers.c
+ 
+Building file: ../Source/Examples/UART/UART-interrupt-driven-command-console.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/UART/UART-interrupt-driven-command-console.d" -MT"Source/Examples/UART/UART-interrupt-driven-command-console.o" -MT"Source/Examples/UART/UART-interrupt-driven-command-console.d" -o "Source/Examples/UART/UART-interrupt-driven-command-console.o" "../Source/Examples/UART/UART-interrupt-driven-command-console.c"
+Finished building: ../Source/Examples/UART/UART-interrupt-driven-command-console.c
+ 
+Building file: ../Source/Examples/UART/UART-operation-modes-test.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/UART/UART-operation-modes-test.d" -MT"Source/Examples/UART/UART-operation-modes-test.o" -MT"Source/Examples/UART/UART-operation-modes-test.d" -o "Source/Examples/UART/UART-operation-modes-test.o" "../Source/Examples/UART/UART-operation-modes-test.c"
+Finished building: ../Source/Examples/UART/UART-operation-modes-test.c
+ 
+Building file: ../Source/Examples/SSP/SPI-writes-to-7-seg-display.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/SSP/SPI-writes-to-7-seg-display.d" -MT"Source/Examples/SSP/SPI-writes-to-7-seg-display.o" -MT"Source/Examples/SSP/SPI-writes-to-7-seg-display.d" -o "Source/Examples/SSP/SPI-writes-to-7-seg-display.o" "../Source/Examples/SSP/SPI-writes-to-7-seg-display.c"
+Finished building: ../Source/Examples/SSP/SPI-writes-to-7-seg-display.c
+ 
+Building file: ../Source/Examples/I2C/I2C-coordinator.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/I2C/I2C-coordinator.d" -MT"Source/Examples/I2C/I2C-coordinator.o" -MT"Source/Examples/I2C/I2C-coordinator.d" -o "Source/Examples/I2C/I2C-coordinator.o" "../Source/Examples/I2C/I2C-coordinator.c"
+Finished building: ../Source/Examples/I2C/I2C-coordinator.c
+ 
+Building file: ../Source/Examples/I2C/I2C-to-OLED.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/I2C/I2C-to-OLED.d" -MT"Source/Examples/I2C/I2C-to-OLED.o" -MT"Source/Examples/I2C/I2C-to-OLED.d" -o "Source/Examples/I2C/I2C-to-OLED.o" "../Source/Examples/I2C/I2C-to-OLED.c"
+Finished building: ../Source/Examples/I2C/I2C-to-OLED.c
+ 
+Building file: ../Source/Examples/I2C/I2C-to-and-from-EEPROM.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/I2C/I2C-to-and-from-EEPROM.d" -MT"Source/Examples/I2C/I2C-to-and-from-EEPROM.o" -MT"Source/Examples/I2C/I2C-to-and-from-EEPROM.d" -o "Source/Examples/I2C/I2C-to-and-from-EEPROM.o" "../Source/Examples/I2C/I2C-to-and-from-EEPROM.c"
+Finished building: ../Source/Examples/I2C/I2C-to-and-from-EEPROM.c
+ 
+Building file: ../Source/Examples/I2C/font5x7.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/I2C/font5x7.d" -MT"Source/Examples/I2C/font5x7.o" -MT"Source/Examples/I2C/font5x7.d" -o "Source/Examples/I2C/font5x7.o" "../Source/Examples/I2C/font5x7.c"
+Finished building: ../Source/Examples/I2C/font5x7.c
+ 
+Building file: ../Source/Examples/I2C/oled.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/I2C/oled.d" -MT"Source/Examples/I2C/oled.o" -MT"Source/Examples/I2C/oled.d" -o "Source/Examples/I2C/oled.o" "../Source/Examples/I2C/oled.c"
+Finished building: ../Source/Examples/I2C/oled.c
+ 
+Building file: ../Source/Examples/GPIO/GPIO-output-and-software-timers.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/Examples/GPIO/GPIO-output-and-software-timers.d" -MT"Source/Examples/GPIO/GPIO-output-and-software-timers.o" -MT"Source/Examples/GPIO/GPIO-output-and-software-timers.d" -o "Source/Examples/GPIO/GPIO-output-and-software-timers.o" "../Source/Examples/GPIO/GPIO-output-and-software-timers.c"
+Finished building: ../Source/Examples/GPIO/GPIO-output-and-software-timers.c
+ 
+Building file: ../Source/cr_startup_lpc176x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/cr_startup_lpc176x.d" -MT"Source/cr_startup_lpc176x.d" -o "Source/cr_startup_lpc176x.o" "../Source/cr_startup_lpc176x.c"
+../Source/cr_startup_lpc176x.c: In function 'pop_registers_from_fault_stack':
+../Source/cr_startup_lpc176x.c:441:23: warning: variable 'stacked_psr' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_psr;
+                       ^
+../Source/cr_startup_lpc176x.c:440:23: warning: variable 'stacked_pc' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_pc;
+                       ^
+../Source/cr_startup_lpc176x.c:439:23: warning: variable 'stacked_lr' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_lr;
+                       ^
+../Source/cr_startup_lpc176x.c:438:23: warning: variable 'stacked_r12' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_r12;
+                       ^
+../Source/cr_startup_lpc176x.c:437:23: warning: variable 'stacked_r3' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_r3;
+                       ^
+../Source/cr_startup_lpc176x.c:436:23: warning: variable 'stacked_r2' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_r2;
+                       ^
+../Source/cr_startup_lpc176x.c:435:23: warning: variable 'stacked_r1' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_r1;
+                       ^
+../Source/cr_startup_lpc176x.c:434:23: warning: variable 'stacked_r0' set but not used [-Wunused-but-set-variable]
+ volatile unsigned int stacked_r0;
+                       ^
+Finished building: ../Source/cr_startup_lpc176x.c
+ 
+Building file: ../Source/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/main.d" -MT"Source/main.o" -MT"Source/main.d" -o "Source/main.o" "../Source/main.c"
+../Source/main.c: In function 'main':
+../Source/main.c:86:2: warning: implicit declaration of function 'config' [-Wimplicit-function-declaration]
+  config();
+  ^
+../Source/main.c:87:2: warning: implicit declaration of function 'inicializarMotores' [-Wimplicit-function-declaration]
+  inicializarMotores();
+  ^
+In file included from ../Source/main.c:8:0:
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:94:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( vTaskEsperarBoton, "EsperarBoton", 1000, NULL, 1, &xTaskBotonHandle );
+  ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+../Source/main.c: At top level:
+../Source/main.c:109:6: warning: conflicting types for 'config'
+ void config()
+      ^
+../Source/main.c:86:2: note: previous implicit declaration of 'config' was here
+  config();
+  ^
+../Source/main.c:169:6: warning: conflicting types for 'inicializarMotores'
+ void inicializarMotores()
+      ^
+../Source/main.c:87:2: note: previous implicit declaration of 'inicializarMotores' was here
+  inicializarMotores();
+  ^
+../Source/main.c: In function 'buscarOponenteDerecha':
+../Source/main.c:314:43: warning: unused variable 'checaElAnterior' [-Wunused-variable]
+  int i, ADC, ADCMOV, ACUMULADOR, ACUMPOS, checaElAnterior = 0, vueltas = 0;
+                                           ^
+../Source/main.c:314:34: warning: unused variable 'ACUMPOS' [-Wunused-variable]
+  int i, ADC, ADCMOV, ACUMULADOR, ACUMPOS, checaElAnterior = 0, vueltas = 0;
+                                  ^
+../Source/main.c:314:22: warning: unused variable 'ACUMULADOR' [-Wunused-variable]
+  int i, ADC, ADCMOV, ACUMULADOR, ACUMPOS, checaElAnterior = 0, vueltas = 0;
+                      ^
+../Source/main.c:314:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, ADC, ADCMOV, ACUMULADOR, ACUMPOS, checaElAnterior = 0, vueltas = 0;
+      ^
+../Source/main.c: In function 'vTaskBuscarEncontrar':
+../Source/main.c:386:21: warning: unused variable 'verifica' [-Wunused-variable]
+  Bool flag1, flag2, verifica;
+                     ^
+../Source/main.c:386:14: warning: unused variable 'flag2' [-Wunused-variable]
+  Bool flag1, flag2, verifica;
+              ^
+../Source/main.c:379:33: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskBuscarEncontrar(void *pvParameters)
+                                 ^
+../Source/main.c: In function 'leerSensoresPiso':
+../Source/main.c:435:61: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+              if ( !(LPC_GPIO2->FIOPIN & (1 << pin)) && time < sensor_value)
+                                                             ^
+In file included from ../Source/main.c:8:0:
+../Source/main.c: In function 'vTaskRevisarSensoresPiso':
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:487:4: note: in expansion of macro 'xTaskCreate'
+    xTaskCreate(vTaskQuienSensoPiso, "Quien Senso en el piso", 1000, NULL, 2, NULL );
+    ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+../Source/main.c:446:37: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskRevisarSensoresPiso(void *pvParameters)
+                                     ^
+../Source/main.c: In function 'vTaskQuienSensoPiso':
+../Source/main.c:502:32: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskQuienSensoPiso(void *pvParameters)
+                                ^
+In file included from ../Source/main.c:8:0:
+../Source/main.c: In function 'vTaskEsperarBoton':
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:601:7: note: in expansion of macro 'xTaskCreate'
+       xTaskCreate( vTaskRevisarSensoresPiso, "Revisar Sensores Piso", 1000, NULL, 0, &xTaskRevisarHandle );
+       ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:270:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../Source/main.c:603:7: note: in expansion of macro 'xTaskCreate'
+       xTaskCreate( vTaskBuscarEncontrar, "BuscarEncontrar", 1000, NULL, 0, &xTaskBuscarHandle );
+       ^
+/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include/task.h:1302:22: note: expected 'const signed char * const' but argument is of type 'char *'
+ signed portBASE_TYPE xTaskGenericCreate( pdTASK_CODE pxTaskCode, const signed char * const pcName, unsigned short usStackDepth, void *pvParameters, unsigned portBASE_TYPE uxPriority, xTaskHandle *pxCreatedTask, portSTACK_TYPE *puxStackBuffer, const xMemoryRegion * const xRegions ) PRIVILEGED_FUNCTION;
+                      ^
+../Source/main.c:579:30: warning: unused parameter 'pvParameters' [-Wunused-parameter]
+ void vTaskEsperarBoton(void *pvParameters)
+                              ^
+Finished building: ../Source/main.c
+ 
+Building file: ../Source/printf-stdarg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-CLI" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/SupportedBoards" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/inc" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source/Examples/Include" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/FreeRTOS-Plus-Demo-1/Source" -I"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Include" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -Wextra -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Source/printf-stdarg.d" -MT"Source/printf-stdarg.o" -MT"Source/printf-stdarg.d" -o "Source/printf-stdarg.o" "../Source/printf-stdarg.c"
+Finished building: ../Source/printf-stdarg.c
+ 
+Building target: FreeRTOS-Plus-Demo-1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/lpc17xx.cmsis.driver.library/Debug" -L"/Users/JABV/Documents/LPCXpresso_8.0.0/ZumoBot/CMSISv2p00_LPC17xx/Debug" -Xlinker -Map=FreeRTOS-Plus-Demo-1.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "FreeRTOS-Plus-Demo-1_Debug.ld" -o "FreeRTOS-Plus-Demo-1.axf"  ./Source/FreeRTOS-Products/FreeRTOS/portable/MemMang/heap_2.o  ./Source/FreeRTOS-Products/FreeRTOS/portable/GCC/ARM_CM3/port.o  ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_DriverInterface.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_i2c.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_ssp.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Device/LPC17xx/FreeRTOS_lpc17xx_uart.o  ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_DriverInterface.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/FreeRTOS_IOUtils.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CharQueueTxAndRx.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_CircularBufferRx.o ./Source/FreeRTOS-Products/FreeRTOS-Plus-IO/Common/IOUtils_ZeroCopyTx.o  ./Source/FreeRTOS-Products/FreeRTOS-Plus-CLI/FreeRTOS_CLI.o  ./Source/FreeRTOS-Products/FreeRTOS/croutine.o ./Source/FreeRTOS-Products/FreeRTOS/list.o ./Source/FreeRTOS-Products/FreeRTOS/queue.o ./Source/FreeRTOS-Products/FreeRTOS/tasks.o ./Source/FreeRTOS-Products/FreeRTOS/timers.o  ./Source/Examples/UART/UART-interrupt-driven-command-console.o ./Source/Examples/UART/UART-operation-modes-test.o  ./Source/Examples/SSP/SPI-writes-to-7-seg-display.o  ./Source/Examples/I2C/I2C-coordinator.o ./Source/Examples/I2C/I2C-to-OLED.o ./Source/Examples/I2C/I2C-to-and-from-EEPROM.o ./Source/Examples/I2C/font5x7.o ./Source/Examples/I2C/oled.o  ./Source/Examples/GPIO/GPIO-output-and-software-timers.o  ./Source/cr_startup_lpc176x.o ./Source/main.o ./Source/printf-stdarg.o   -llpc17xx.cmsis.driver.library -lCMSISv2p00_LPC17xx
+Finished building target: FreeRTOS-Plus-Demo-1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size FreeRTOS-Plus-Demo-1.axf; # arm-none-eabi-objcopy -O binary FreeRTOS-Plus-Demo-1.axf FreeRTOS-Plus-Demo-1.bin ; checksum -p LPC1769 -d FreeRTOS-Plus-Demo-1.bin;
+   text	   data	    bss	    dec	    hex	filename
+  19292	     16	  16220	  35528	   8ac8	FreeRTOS-Plus-Demo-1.axf
+ 
+
+21:32:08 Build Finished (took 2s.360ms)
+
